@@ -6,8 +6,9 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="src" path="src/main/java"/>
-	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
+	<classpathentry kind="src" path="src/main/test/java"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
 	<classpathentry kind="lib" path="/home/aishu/Downloads/apache-tomcat-9.0.105/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="/home/aishu/Downloads/junit-jupiter-api-5.3.1.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>

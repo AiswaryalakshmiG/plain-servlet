@@ -1,4 +1,4 @@
-package com.student.servlet;
+package com.example.servlet;
 
 import java.io.IOException;
 

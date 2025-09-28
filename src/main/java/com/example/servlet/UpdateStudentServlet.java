@@ -1,4 +1,4 @@
-package com.student.servlet;
+package com.example.servlet;
 
 import java.io.IOException;
 
@@ -19,7 +19,7 @@ public class UpdateStudentServlet extends HttpServlet {
             s.setId(Integer.parseInt(req.getParameter("id")));
             s.setName(req.getParameter("name"));
             s.setAge(Integer.parseInt(req.getParameter("age")));
-            s.setMark(req.getParameter("mark"));
+            s.setMark(Double.parseDouble(req.getParameter("mark")));
 
             new StudentDAO().updateStudent(s);
         } catch(Exception e){ e.printStackTrace(); }
