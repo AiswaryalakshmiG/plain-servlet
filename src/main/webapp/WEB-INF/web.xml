@@ -69,4 +69,22 @@
 		<url-pattern>/testadd</url-pattern>
 	</servlet-mapping>
 
+	<servlet>
+		<servlet-name>TestDeleteStudent</servlet-name>
+		<servlet-class>com.example.servlettest.TestDeleteStudentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TestDeleteStudent</servlet-name>
+		<url-pattern>/testdelete</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>TestEditStudent</servlet-name>
+		<servlet-class>com.example.servlettest.TestEditStudentServlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>TestEditStudent</servlet-name>
+		<url-pattern>/testedit</url-pattern>
+	</servlet-mapping>
+
 </web-app>
